@@ -1,0 +1,43 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.container,
+h2 {
+    color: cadetblue;
+    font-weight: 600;
+}
+
+.btn-green {
+    border-color: blue;
+    background: transparent;
+    color: blue;
+}
+
+.btn-green:hover {
+    background-color: blue;
+    color: white;
+}
+
+#item-input {
+    border-color: blue;
+}
+
+#main {
+    width: 55rem;
+    margin: 0 auto;
+}
+
+.item-container {
+    color: black;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
